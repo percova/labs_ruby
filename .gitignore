@@ -1,0 +1,22 @@
+# Ігнорування налаштувань bundle.
+/.bundle
+# Ігнорування базової БД SQLite.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+# Ігнорування всіх логів і тимчасових файлів.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+/node_modules
+/yarn-error.log
+.byebug_history
+# Ігнорування деяких інших потрібних і непотрібних файлів.
+database.yml
+doc/
+*.swp
+*~
+.project
+.DS_Store
+.idea
+.secret
